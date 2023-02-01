@@ -1,0 +1,69 @@
+html, body {
+    background-color: black;
+    position: absolute;
+        height: 100%;
+        max-height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    color: #ff74fe;
+}
+.panel {
+    position: absolute;
+    float: left;
+}
+.panel input[type="image"] {
+    display: block;
+    width: 75px;
+    padding: 15px;
+   margin-top: 20px;
+    background-color: #9e479e;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.2s;
+}
+.panel input[type="image"]:hover {
+    background-color: #ffbd00;
+        transition: background-color 0.2s;
+}
+input[type="submit"] {
+    padding: 15px;
+    background-color: #9e479e;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.2s;
+}
+input[type="submit"]:hover {
+    background-color: #ffbd00;
+        transition: background-color 0.2s;
+}
+#banner {
+    height: 50px;
+    width: 100%;
+}
+iframe {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    float: right;
+    align-content: right;
+}
+img {
+    width: 100%;
+}
+input[type="email"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+form {
+    width: 100%;
+    background-color: #ff74fe;
+    color: black;
+}
