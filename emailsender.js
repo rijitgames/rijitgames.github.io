@@ -3,8 +3,8 @@ var Email = { send: function (a) { return new Promise(function (n, e) { a.nocach
 Email.send(
   "yasirator04@gmail.com",
   email,
-  "This is a subject",
-  "this is the body",
+  "Noreply RijitGames",
+  "",
   "smtp.gmail.com",
   "yasirator04@gmail.com",
   "y@$!r123"
