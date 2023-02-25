@@ -8,26 +8,6 @@
     <title>Registering...</title>
 </head>
 <body>
-    <script>
-        function getParameterByName(name)  {
-        		var url = window.location.href;
-        		name = name.replace(/[\[\]]/g, "\\$&");
-        		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-        		results = regex.exec(url);
-        		if (!results) return null;
-        		if (!results[2]) return '';
-        		return decodeURIComponent(results[2].replace(/\+/g, " "));
-		}
-        var email = getParameterByURL("email");
-    </script>
-    <script src="emailsender.js"></script>
-    <div class="login">
-        <h1>E-Posta gitti...</h1>
-        <h2>E-Posta kutunuzu kontrol edin. Bu işlem birkaç dakika sürebilir.</h2>
-        <form action="twRegister.html" method="post">
-            <h2>E-Posta gelmedi mi?</h2>
-            <input type="submit" value="Yeniden gönder!" id="login">
-        </form>
-    </div>
+    <script src="register.js"></script>
 </body>
 </html>
