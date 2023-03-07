@@ -28,6 +28,9 @@ html, body {
         padding: 0;
     color: #ff74fe;
 }
+a {
+  color: #ff74fe;
+}
 .panel {
     position: absolute;
     float: left;
